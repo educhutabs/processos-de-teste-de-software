@@ -44,9 +44,7 @@ Discute o impacto da inteligência artificial na disciplina de testes, abordando
 
 Os documentos foram escritos de forma independente, mas seguem uma progressão lógica:
 
-```
-Processos de Teste  -->  Requisitos e Casos de Teste  -->  Técnicas de Identificação  -->  IA e o Tester
-```
+Processos de Teste --> Requisitos e Casos de Teste --> Técnicas de Identificação --> IA e o Tester
 
 Seguir essa sequência garante que a compreensão do processo como um todo preceda o aprendizado das técnicas específicas e das tendências emergentes.
 
