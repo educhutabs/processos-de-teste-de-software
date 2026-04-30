@@ -32,7 +32,7 @@ Detalha técnicas fundamentais de projeto de casos de teste: partição de equiv
 
 ---
 
-### 4. Inteligência artificial e o tester
+### 4. IA e o tester
 
 > `ia-tester.md`
 
