@@ -4,7 +4,7 @@ Este documento discute o impacto da inteligência artificial na disciplina de te
 
 ---
 
-## IA e o Novo Papel do Testador
+## IA e o novo papel do testador
 
 ### Um papel em transformação
 
@@ -32,7 +32,7 @@ O profissional de qualidade que entende as limitações e as possibilidades da I
 
 ---
 
-## IA no Planejamento de Testes
+## IA no planejamento de testes
 
 ### Geração de casos de teste a partir de requisitos
 
@@ -58,7 +58,7 @@ Um dos maiores custos da automação de testes é a manutenção: cada mudança 
 
 ---
 
-## IA na Detecção e Classificação de Bugs
+## IA na detecção e classificação de defeitos
 
 ### Detecção automática de anomalias
 
@@ -91,7 +91,7 @@ A supervisão humana sobre as saídas dos sistemas de IA é, portanto, não apen
 
 ---
 
-## Considerações Finais
+## Considerações finais
 
 A inteligência artificial está redefinindo a disciplina de testes de software de forma gradual e irreversível. Times que adotam essas ferramentas com senso crítico — entendendo suas capacidades e suas limitações — ganham velocidade, cobertura e capacidade analítica sem abrir mão da qualidade do julgamento humano.
 
@@ -102,8 +102,13 @@ O caminho não é escolher entre o testador tradicional e a automação intelige
 ## Referências
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - HUMBLE, Jez; FARLEY, David. *Continuous Delivery*. Addison-Wesley, 2010.
+
 - GOOGLE. *Testing Blog: AI and ML in Testing*. Disponível em: https://testing.googleblog.com. Acesso em: 2024.
+
 - HARMAN, Mark; McMANN, Laurence. *Search-Based Software Testing*. IEEE Software, 2010.
+
 - AMERSHI, Saleema et al. *Software Engineering for Machine Learning: A Case Study*. Proceedings of ICSE-SEIP, 2019.
+
 - MICROSOFT. *Responsible AI Principles*. Disponível em: https://www.microsoft.com/en-us/ai/responsible-ai. Acesso em: 2024.
