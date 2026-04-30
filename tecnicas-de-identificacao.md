@@ -8,11 +8,11 @@ Este documento detalha três técnicas fundamentais de projeto de casos de teste
 
 Sem uma técnica estruturada, a seleção de casos de teste tende a ser guiada pela intuição ou pela experiência individual do testador. Isso gera dois problemas recorrentes: cobertura concentrada nos fluxos mais óbvios e lacunas em condições de contorno e combinações de entradas menos evidentes — exatamente onde os defeitos mais críticos costumam estar.
 
-As técnicas de projeto de testes oferecem critérios objetivos para decidir **o que testar** e **com quais dados**, tornando o processo reproduzível, rastreável e independente do perfil de quem o executa.
+As técnicas de projeto de testes oferecem critérios objetivos para decidir o que testar e com quais dados, tornando o processo reproduzível, rastreável e independente do perfil de quem o executa.
 
 ---
 
-## Partição de Equivalência
+## Partição de equivalência
 
 ### O que é
 
@@ -35,7 +35,7 @@ A partição de equivalência é especialmente útil em campos de formulário, p
 
 ---
 
-## Análise de Valor Limite
+## Análise de valor limite
 
 ### O que é
 
@@ -59,7 +59,7 @@ A análise de valor limite é aplicável sempre que existirem intervalos numéri
 
 ---
 
-## Matriz de Decisão
+## Matriz de decisão
 
 ### O que é
 
@@ -88,7 +88,11 @@ A matriz de decisão é especialmente útil em regras de negócio complexas, flu
 ## Referências
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
 - PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
+
 - CRAIG, Rick D.; JASKIEL, Stefan P. *Systematic Software Testing*. Artech House, 2002.
+
 - BEIZER, Boris. *Software Testing Techniques*. 2. ed. Van Nostrand Reinhold, 1990.
