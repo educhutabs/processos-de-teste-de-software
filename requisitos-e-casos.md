@@ -32,7 +32,7 @@ A análise pode ser conduzida a partir de diferentes artefatos, dependendo da me
 
 A modelagem é a atividade de projetar os casos de teste a partir das condições identificadas na análise. É nessa etapa que se decide **como** testar cada condição: quais entradas usar, qual sequência de ações executar e qual resultado verificar.
 
-A modelagem utiliza **técnicas de projeto de casos de teste** para garantir que o esforço de teste seja eficiente e sistemático, cobrindo as situações mais relevantes sem desperdiçar recursos em redundâncias. As técnicas mais utilizadas — partição de equivalência, análise de valor limite e matriz de decisão — são detalhadas no documento `tecnicas-e-identificacao.md`.
+A modelagem utiliza **técnicas de projeto de casos de teste** para garantir que o esforço de teste seja eficiente e sistemático, cobrindo as situações mais relevantes sem desperdiçar recursos em redundâncias. As técnicas mais utilizadas — partição de equivalência, análise de valor limite e matriz de decisão — são detalhadas no documento `tecnicas-de-identificacao.md`.
 
 ### Estrutura de um caso de teste
 
