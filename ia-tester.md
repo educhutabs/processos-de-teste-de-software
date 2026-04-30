@@ -1,6 +1,8 @@
 # Inteligência Artificial e o Tester
 
-Este documento discute o impacto da inteligência artificial na disciplina de testes de software, abordando as mudanças no papel do testador, as aplicações de IA no planejamento de testes e o uso de modelos inteligentes na detecção e classificação de defeitos. O objetivo não é apresentar a IA como substituta do profissional de qualidade, mas como uma camada de capacidade que amplia o alcance e a efetividade do trabalho humano.
+Este documento discute o impacto da inteligência artificial na disciplina de testes de software, abordando as mudanças no papel do testador, as aplicações de IA no planejamento de testes e o uso de modelos inteligentes na detecção e classificação de defeitos. 
+
+O objetivo não é apresentar a IA como substituta do profissional de qualidade, mas como uma camada de capacidade que amplia o alcance e a efetividade do trabalho humano.
 
 ---
 
