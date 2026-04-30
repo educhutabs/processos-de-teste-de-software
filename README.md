@@ -4,9 +4,9 @@ Este repositório reúne documentação técnica sobre os principais processos, 
 
 ---
 
-## Estrutura do Repositório
+## Estrutura do repositório
 
-### 1. Processos de Teste
+### 1. Processos de teste
 
 > `processos-de-teste.md`
 
@@ -16,7 +16,7 @@ Aborda como definir estratégias, acompanhar o progresso e tomar decisões basea
 
 ---
 
-### 2. Requisitos e Casos de Teste
+### 2. Requisitos e casos de teste
 
 > `requisitos-e-casos.md`
 
@@ -24,7 +24,7 @@ Cobre as etapas de análise e modelagem de testes, além da implementação, exe
 
 ---
 
-### 3. Técnicas de Identificação de Testes
+### 3. Técnicas de identificação de testes
 
 > `tecnicas-de-identificacao.md`
 
@@ -32,7 +32,7 @@ Detalha técnicas fundamentais de projeto de casos de teste: partição de equiv
 
 ---
 
-### 4. Inteligência Artificial e o Tester
+### 4. Inteligência artificial e o tester
 
 > `ia-tester.md`
 
@@ -40,7 +40,7 @@ Discute o impacto da inteligência artificial na disciplina de testes, abordando
 
 ---
 
-## Ordem de Leitura Recomendada
+## Ordem de leitura recomendada
 
 Os documentos foram escritos de forma independente, mas seguem uma progressão lógica:
 
@@ -50,7 +50,7 @@ Seguir essa sequência garante que a compreensão do processo como um todo prece
 
 ---
 
-## Sobre o Conteúdo
+## Sobre o conteúdo
 
 Todo o material é baseado em referências consolidadas da indústria, incluindo o syllabus do ISTQB Foundation Level, normas IEEE e publicações especializadas em engenharia de software e inteligência artificial aplicada a testes. 
 
@@ -66,12 +66,16 @@ Contribuições são bem-vindas. Se você identificar imprecisões conceituais, 
 
 ---
 
-## Referências Gerais
+## Referências
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
-- IEEE Std 829. *Standard for Software and System Test Documentation*. IEEE, 2008.
-- IEEE Std 1044. *Standard Classification for Software Anomalies*. IEEE, 2009.
-- MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
-- PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
-- KANER, Cem; BACH, James; PETTICHORD, Bret. *Lessons Learned in Software Testing*. Wiley, 2001.
 
+- IEEE Std 829. *Standard for Software and System Test Documentation*. IEEE, 2008.
+
+- IEEE Std 1044. *Standard Classification for Software Anomalies*. IEEE, 2009.
+
+- MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
+- PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
+
+- KANER, Cem; BACH, James; PETTICHORD, Bret. *Lessons Learned in Software Testing*. Wiley, 2001.
