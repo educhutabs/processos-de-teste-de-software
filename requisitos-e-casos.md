@@ -30,27 +30,27 @@ A análise pode ser conduzida a partir de diferentes artefatos, dependendo da me
 
 ### O que é a modelagem de testes
 
-A modelagem é a atividade de projetar os casos de teste a partir das condições identificadas na análise. É nessa etapa que se decide **como** testar cada condição: quais entradas usar, qual sequência de ações executar e qual resultado verificar.
+A modelagem é a atividade de projetar os casos de teste a partir das condições identificadas na análise. É nessa etapa que se decide como testar cada condição: quais entradas usar, qual sequência de ações executar e qual resultado verificar.
 
-A modelagem utiliza **técnicas de projeto de casos de teste** para garantir que o esforço de teste seja eficiente e sistemático, cobrindo as situações mais relevantes sem desperdiçar recursos em redundâncias. As técnicas mais utilizadas — partição de equivalência, análise de valor limite e matriz de decisão — são detalhadas no documento `tecnicas-de-identificacao.md`.
+A modelagem utiliza técnicas de projeto de casos de teste para garantir que o esforço de teste seja eficiente e sistemático, cobrindo as situações mais relevantes sem desperdiçar recursos em redundâncias. As técnicas mais utilizadas — partição de equivalência, análise de valor limite e matriz de decisão — são detalhadas no documento `tecnicas-de-identificacao.md`.
 
 ### Estrutura de um caso de teste
 
 Um caso de teste bem estruturado deve conter, no mínimo:
 
-ID: Identificador único
+**ID:** Identificador único
 
-Título: Descrição objetiva do que está sendo testado
+**Título:** Descrição objetiva do que está sendo testado
 
-Pré-condição: Estado do sistema antes da execução
+**Pré-condição:** Estado do sistema antes da execução
 
-Passos: Sequência de ações a executar
+**Passos:** Sequência de ações a executar
 
-Dados de entrada: Valores específicos utilizados na execução
+**Dados de entrada:** Valores específicos utilizados na execução
 
-Resultado esperado: Comportamento esperado do sistema após os passos
+**Resultado esperado:** Comportamento esperado do sistema após os passos
 
-Pós-condição: Estado do sistema após a execução (quando relevante)
+**Pós-condição:** Estado do sistema após a execução (quando relevante)
 
 A clareza dos passos e a objetividade do resultado esperado são os critérios mais importantes para um caso de teste de qualidade. Um caso de teste ambíguo gera resultados inconsistentes: dois executores diferentes podem chegar a conclusões opostas sobre o mesmo comportamento do sistema.
 
@@ -70,7 +70,7 @@ A implementação é a atividade de preparar tudo que é necessário para a exec
 
 ### Organização dos casos de teste
 
-Os casos de teste são agrupados em **suítes de teste**, que organizam a execução por funcionalidade, nível de teste, prioridade ou ciclo de entrega. A organização em suítes facilita a gestão da execução e permite reutilizar conjuntos de testes em diferentes ciclos.
+Os casos de teste são agrupados em suítes de teste, que organizam a execução por funcionalidade, nível de teste, prioridade ou ciclo de entrega. A organização em suítes facilita a gestão da execução e permite reutilizar conjuntos de testes em diferentes ciclos.
 
 ### Dados de teste
 
@@ -79,8 +79,11 @@ Os dados de teste são um dos aspectos mais frequentemente negligenciados da imp
 Boas práticas para dados de teste:
 
 - Criar dados independentes por caso de teste, evitando dependências que causem falhas em cascata
+
 - Utilizar dados representativos das condições reais de uso do sistema
+
 - Garantir que dados sensíveis (CPF, cartão de crédito, e-mail) sejam anonimizados em ambientes de teste
+
 - Documentar o estado esperado do ambiente antes e após cada execução
 
 ### Ambiente de teste
@@ -140,8 +143,11 @@ A conclusão do ciclo de testes é a atividade de verificar se os critérios de 
 Os critérios de saída, definidos durante o planejamento, determinam quando o ciclo de testes pode ser encerrado. Exemplos:
 
 - Percentual mínimo de casos de teste executados (ex.: 100% dos críticos e 90% dos demais)
+
 - Zero defeitos abertos com severidade crítica
+
 - Todos os defeitos de alta severidade corrigidos e retestados com sucesso
+
 - Cobertura mínima de requisitos atingida
 
 ### Relatório final de testes
@@ -149,9 +155,13 @@ Os critérios de saída, definidos durante o planejamento, determinam quando o c
 O relatório final consolida os resultados do ciclo e serve como evidência formal da qualidade do sistema entregue. Deve conter, no mínimo:
 
 - Resumo executivo do ciclo de testes
+
 - Métricas de execução (casos planejados, executados, aprovados, falhos, bloqueados)
+
 - Resumo dos defeitos por severidade e status
+
 - Avaliação de riscos residuais
+
 - Recomendação de liberação ou retenção da entrega
 
 ### Lições aprendidas
