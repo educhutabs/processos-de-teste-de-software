@@ -4,7 +4,7 @@ Este documento aborda as etapas de análise e modelagem de testes, seguidas da i
 
 ---
 
-## Análise e Modelagem de Testes
+## Análise e modelagem de testes
 
 ### O que é a análise de testes
 
@@ -62,7 +62,7 @@ Em ferramentas de gestão de testes (como Jira, TestRail ou Azure DevOps), a ras
 
 ---
 
-## Implementação de Testes
+## Implementação de testes
 
 ### O que é
 
@@ -129,7 +129,7 @@ A distinção entre severidade e prioridade é importante e frequentemente confu
 
 ---
 
-## Conclusão de Testes
+## Conclusão de testes
 
 ### O que é
 
@@ -163,7 +163,11 @@ Ao final de cada ciclo, o time deve registrar as lições aprendidas: o que func
 ## Referências
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - IEEE Std 829. *Standard for Software and System Test Documentation*. IEEE, 2008.
+
 - MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
 - CRISPIN, Lisa; GREGORY, Janet. *Agile Testing: A Practical Guide for Testers and Agile Teams*. Addison-Wesley, 2009.
+
 - WHITTAKER, James A. *How to Break Software*. Addison-Wesley, 2002.
