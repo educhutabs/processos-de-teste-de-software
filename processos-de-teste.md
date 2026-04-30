@@ -8,7 +8,7 @@ Este documento aborda as cinco atividades centrais que estruturam o processo de 
 
 O teste de software não se resume à execução de casos de teste. É um processo contínuo que permeia todo o ciclo de vida do desenvolvimento, desde a análise de requisitos até a entrega em produção. Para que esse processo seja eficaz, ele precisa ser planejado, acompanhado e ajustado sistematicamente.
 
-O ISTQB organiza o processo de teste em cinco atividades principais: planejamento, monitoramento e controle, análise, modelagem e execução. Este documento foca nas duas primeiras — planejamento e monitoramento e controle —, que constituem a camada gerencial do processo e determinam a qualidade de tudo que vem depois.
+O ISTQB organiza o processo de teste em cinco atividades principais: planejamento, monitoramento e controle, análise, modelagem e execução.
 
 ---
 
