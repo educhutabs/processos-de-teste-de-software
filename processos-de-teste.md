@@ -4,7 +4,7 @@ Este documento aborda as cinco atividades centrais que estruturam o processo de 
 
 ---
 
-## O Processo de Teste como Disciplina
+## O Processo de teste como disciplina
 
 O teste de software não se resume à execução de casos de teste. É um processo contínuo que permeia todo o ciclo de vida do desenvolvimento, desde a análise de requisitos até a entrega em produção. Para que esse processo seja eficaz, ele precisa ser planejado, acompanhado e ajustado sistematicamente.
 
@@ -12,7 +12,7 @@ O ISTQB organiza o processo de teste em cinco atividades principais: planejament
 
 ---
 
-## Planejamento de Testes
+## Planejamento de testes
 
 ### O que é
 
@@ -52,7 +52,7 @@ Estrutura básica de um Plano de Testes:
 
 ---
 
-## Monitoramento e Controle de Testes
+## Monitoramento e controle de testes
 
 ### O que é
 
@@ -103,7 +103,7 @@ A decisão de bloquear ou liberar uma entrega com base nos resultados dos testes
 
 ---
 
-## Análise de Testes
+## Análise de testes
 
 ### O que é
 
@@ -139,13 +139,13 @@ A análise de testes frequentemente expõe problemas nos próprios requisitos: a
 
 ---
 
-## Modelagem de Testes
+## Modelagem de testes
 
 ### O que é
 
-A modelagem é a atividade de projetar os casos de teste a partir das condições identificadas na análise. É nessa etapa que se decide **como** testar cada condição: quais entradas utilizar, qual sequência de ações executar e qual resultado verificar.
+A modelagem é a atividade de projetar os casos de teste a partir das condições identificadas na análise. É nessa etapa que se decide como testar cada condição: quais entradas utilizar, qual sequência de ações executar e qual resultado verificar.
 
-A modelagem utiliza **técnicas de projeto de casos de teste** para garantir que o esforço seja eficiente e sistemático, cobrindo as situações mais relevantes sem desperdiçar recursos em redundâncias. As três técnicas mais utilizadas são a partição de equivalência, a análise de valor limite e a matriz de decisão.
+A modelagem utiliza técnicas de projeto de casos de teste para garantir que o esforço seja eficiente e sistemático, cobrindo as situações mais relevantes sem desperdiçar recursos em redundâncias. As três técnicas mais utilizadas são a partição de equivalência, a análise de valor limite e a matriz de decisão.
 
 ### Estrutura de um caso de teste
 
@@ -177,7 +177,7 @@ Os casos de teste produzidos na modelagem são agrupados em **suítes de teste**
 
 ---
 
-## Execução de Testes
+## Execução de testes
 
 ### O que é
 
@@ -222,8 +222,13 @@ O ciclo de execução é encerrado quando os critérios de saída definidos no p
 ## Referências
 
 - ISTQB. *Syllabus Foundation Level*. International Software Testing Qualifications Board, 2023.
+
 - IEEE Std 829. *Standard for Software and System Test Documentation*. IEEE, 2008.
+
 - MYERS, Glenford J.; SANDLER, Corey; BADGETT, Tom. *The Art of Software Testing*. 3. ed. Wiley, 2011.
+
 - PRESSMAN, Roger S. *Engenharia de Software: Uma Abordagem Profissional*. 8. ed. McGraw-Hill, 2016.
+
 - CRAIG, Rick D.; JASKIEL, Stefan P. *Systematic Software Testing*. Artech House, 2002.
+
 - CRISPIN, Lisa; GREGORY, Janet. *Agile Testing: A Practical Guide for Testers and Agile Teams*. Addison-Wesley, 2009.
