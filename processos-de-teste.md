@@ -26,10 +26,7 @@ O planejamento não é uma atividade única realizada no início do projeto. Em 
 
 **Abordagem e estratégia:** quais tipos e níveis de teste serão utilizados, quais técnicas de projeto de casos de teste serão aplicadas e qual será o critério de priorização do esforço (baseado em risco, em criticidade de negócio, em histórico de defeitos, etc.).
 
-**Critérios de entrada e saída:** condições que precisam ser satisfeitas para que o ciclo de testes seja iniciado (critérios de entrada) e condições que indicam que o ciclo foi concluído de forma satisfatória (critérios de saída). Exemplos comuns:
-
-**Critério de entrada:** Build disponível, ambiente configurado, casos de teste revisados
-**Critério de saída:** 95% dos casos de teste executados, zero defeitos críticos em aberto
+**Critérios de entrada e saída:** condições que precisam ser satisfeitas para que o ciclo de testes seja iniciado (critérios de entrada) e condições que indicam que o ciclo foi concluído de forma satisfatória (critérios de saída).
 
 **Recursos:** pessoas, ambientes, ferramentas e dados de teste necessários para a execução. A ausência de planejamento de recursos é uma das causas mais comuns de atrasos em fases de teste.
 
@@ -70,10 +67,15 @@ As métricas são o principal instrumento do monitoramento. Elas transformam o p
 Métricas comumente utilizadas:
 
 **Casos de teste planejados vs. executados:** Percentual do ciclo de testes concluído
+
 **Taxa de aprovação:** Percentual de casos de teste que passaram
+
 **Densidade de defeitos:** Número de defeitos por funcionalidade ou módulo
+
 **Defeitos por severidade:** Distribuição de defeitos entre crítico, alto, médio e baixo
+
 **Tempo médio de resolução de defeitos:** Eficiência do processo de correção
+
 **Cobertura de requisitos:** Percentual de requisitos cobertos por pelo menos um caso de teste
 
 ### Relatório de progresso
@@ -82,9 +84,11 @@ O relatório de progresso é o artefato de comunicação do monitoramento. Deve 
 
 Um bom relatório de progresso responde a três perguntas:
 
-1. **Onde estamos?** — percentual de execução, taxa de aprovação, número de defeitos abertos.
-2. **Estamos dentro do plano?** — comparação entre o progresso real e o previsto.
-3. **O que pode impactar a entrega?** — riscos ativos, bloqueadores e dependências pendentes.
+**Onde estamos?** — percentual de execução, taxa de aprovação, número de defeitos abertos.
+
+**Estamos dentro do plano?** — comparação entre o progresso real e o previsto.
+
+**O que pode impactar a entrega?** — riscos ativos, bloqueadores e dependências pendentes.
 
 ### Controle: quando e como agir
 
@@ -112,10 +116,15 @@ A qualidade da análise determina diretamente a cobertura dos testes. Uma análi
 A análise pode ser conduzida a partir de diferentes artefatos, dependendo da metodologia e da maturidade do projeto:
 
 **Especificação de requisitos:** Documento formal com requisitos funcionais e não funcionais
+
 **Histórias de usuário:** Descrições curtas de funcionalidades na perspectiva do usuário, comuns em projetos ágeis
+
 **Critérios de aceite:** Condições que definem quando uma história ou requisito está concluído
+
 **Casos de uso:** Descrições de interações entre o usuário e o sistema para atingir um objetivo
+
 **Regras de negócio:** Restrições e políticas que o sistema deve respeitar
+
 **Documentação técnica:** Especificações de APIs, modelos de dados e arquitetura
 
 ### Condições de teste
@@ -141,7 +150,6 @@ A modelagem utiliza **técnicas de projeto de casos de teste** para garantir que
 ### Estrutura de um caso de teste
 
 Um caso de teste bem estruturado deve conter, no mínimo:
-
 
 ID: Identificador único
 
@@ -180,21 +188,30 @@ A execução é a atividade de rodar os casos de teste, registrar os resultados 
 Cada caso de teste executado deve ter seu resultado registrado de forma objetiva. Os status mais comuns são:
 
 **Passou:** O comportamento observado corresponde ao resultado esperado
+
 **Falhou:** O comportamento observado diverge do resultado esperado
+
 **Bloqueado:** A execução não pôde ser concluída por impedimento externo
+
 **Não executado:** O caso de teste ainda não foi executado no ciclo atual
 
 ### Reporte de defeitos
 
 Quando um caso de teste falha, um defeito deve ser registrado na ferramenta de gestão. Um bom reporte de defeito deve conter:
 
-- **Título objetivo:** o que falhou e em que contexto
-- **Passos para reprodução:** sequência exata que leva à falha
-- **Resultado obtido:** o que o sistema fez
-- **Resultado esperado:** o que o sistema deveria ter feito
-- **Severidade:** impacto do defeito no funcionamento do sistema (crítico, alto, médio, baixo)
-- **Prioridade:** urgência de correção em relação ao contexto do projeto
-- **Evidências:** capturas de tela, logs e vídeos que facilitem a reprodução e a correção
+**Título objetivo:** o que falhou e em que contexto
+
+**Passos para reprodução:** sequência exata que leva à falha
+
+**Resultado obtido:** o que o sistema fez
+
+**Resultado esperado:** o que o sistema deveria ter feito
+
+**Severidade:** impacto do defeito no funcionamento do sistema (crítico, alto, médio, baixo)
+
+**Prioridade:** urgência de correção em relação ao contexto do projeto
+
+**Evidências:** capturas de tela, logs e vídeos que facilitem a reprodução e a correção
 
 A distinção entre severidade e prioridade é frequentemente confundida. Um defeito pode ter alta severidade técnica e prioridade de correção mais baixa do que um defeito de severidade média em um fluxo crítico de negócio. As duas dimensões precisam ser avaliadas de forma independente.
 
