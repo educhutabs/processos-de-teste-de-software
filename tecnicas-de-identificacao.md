@@ -24,8 +24,9 @@ Essa técnica reduz significativamente o número de casos de teste necessários 
 
 Para cada campo ou condição de entrada, as partições são classificadas em:
 
-- **Partições válidas:** conjuntos de valores que o sistema deve aceitar e processar corretamente.
-- **Partições inválidas:** conjuntos de valores que o sistema deve rejeitar, tratando com mensagem de erro adequada.
+**Partições válidas:** conjuntos de valores que o sistema deve aceitar e processar corretamente.
+
+**Partições inválidas:** conjuntos de valores que o sistema deve rejeitar, tratando com mensagem de erro adequada.
 
 Ambos os tipos precisam ser testados. Ignorar as partições inválidas é um erro comum que deixa descobertos os comportamentos de tratamento de erro do sistema.
 
@@ -48,7 +49,9 @@ Em vez de testar apenas um valor representativo do interior de cada partição, 
 Para cada fronteira entre partições, são selecionados:
 
 - O valor exatamente no limite
+
 - O valor imediatamente abaixo do limite
+
 - O valor imediatamente acima do limite
 
 Em sistemas com domínios discretos (números inteiros, por exemplo), "imediatamente abaixo" e "imediatamente acima" significam o valor anterior e o valor seguinte. Em domínios contínuos, a granularidade depende do tipo de dado utilizado.
@@ -71,9 +74,11 @@ A técnica organiza todas as combinações possíveis de condições e seus resp
 
 Uma matriz de decisão é composta por:
 
-- **Condições:** as entradas ou estados que influenciam o comportamento do sistema. Cada condição ocupa uma linha na parte superior da tabela.
-- **Regras:** cada coluna representa uma combinação específica de condições. O número máximo de regras para _n_ condições binárias é 2ⁿ.
-- **Ações:** os resultados ou comportamentos esperados para cada combinação de condições.
+**Condições:** as entradas ou estados que influenciam o comportamento do sistema. Cada condição ocupa uma linha na parte superior da tabela.
+
+**Regras:** cada coluna representa uma combinação específica de condições. O número máximo de regras para _n_ condições binárias é 2ⁿ.
+
+**Ações:** os resultados ou comportamentos esperados para cada combinação de condições.
 
 ### Simplificação da matriz
 
