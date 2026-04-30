@@ -10,7 +10,7 @@ Este repositório reúne documentação técnica sobre os principais processos, 
 
 > `processos-de-teste.md`
 
-Apresenta as três atividades centrais que estruturam o processo de teste: planejamento, monitoramento e controle. 
+Apresenta as cinco atividades centrais que estruturam o processo de teste:planejamento, monitoramento, análise, modelagem e execução.
 
 Aborda como definir estratégias, acompanhar o progresso e tomar decisões baseadas em métricas ao longo do ciclo de vida do projeto.
 
