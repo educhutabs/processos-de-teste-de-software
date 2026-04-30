@@ -1,6 +1,6 @@
 # Processos de Teste de Software
 
-Este documento aborda as três atividades centrais que estruturam o processo de teste: planejamento, monitoramento e controle. Compreender essas atividades é fundamental para conduzir o esforço de qualidade de forma organizada, previsível e orientada a resultados — e não apenas como uma sequência de execuções pontuais.
+Este documento aborda as cinco atividades centrais que estruturam o processo de teste: planejamento, monitoramento, análise, modelagem e execução. Compreender essas atividades é fundamental para conduzir o esforço de qualidade de forma organizada, previsível e orientada a resultados — e não apenas como uma sequência de execuções pontuais.
 
 ---
 
@@ -43,7 +43,6 @@ O Plano de Testes é o documento que consolida todas as decisões do planejament
 
 Estrutura básica de um Plano de Testes:
 
-```
 1. Objetivo e escopo
 2. Itens a serem testados
 3. Itens fora do escopo
@@ -53,7 +52,6 @@ Estrutura básica de um Plano de Testes:
 7. Cronograma
 8. Riscos e mitigações
 9. Responsabilidades
-```
 
 ---
 
@@ -144,15 +142,20 @@ A modelagem utiliza **técnicas de projeto de casos de teste** para garantir que
 
 Um caso de teste bem estruturado deve conter, no mínimo:
 
-```
-ID                 : Identificador único
-Título             : Descrição objetiva do que está sendo testado
-Pré-condição       : Estado do sistema antes da execução
-Passos             : Sequência de ações a executar
-Dados de entrada   : Valores específicos utilizados na execução
-Resultado esperado : Comportamento esperado do sistema após os passos
-Pós-condição       : Estado do sistema após a execução (quando relevante)
-```
+
+ID: Identificador único
+
+Título: Descrição objetiva do que está sendo testado
+
+Pré-condição: Estado do sistema antes da execução
+
+Passos: Sequência de ações a executar
+
+Dados de entrada: Valores específicos utilizados na execução
+
+Resultado esperado: Comportamento esperado do sistema após os passos
+
+Pós-condição: Estado do sistema após a execução (quando relevante)
 
 A clareza dos passos e a objetividade do resultado esperado são os critérios mais importantes para um caso de teste de qualidade. Um caso ambíguo gera resultados inconsistentes: dois executores diferentes podem chegar a conclusões opostas sobre o mesmo comportamento do sistema.
 
